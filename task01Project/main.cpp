@@ -1,4 +1,4 @@
-#include"logic.h"
+#include"util.h"
 
 int main() {
 	int number;
@@ -6,7 +6,8 @@ int main() {
 	cout << "input number:";
 	cin >> number;
 
-	cout << "max:" << find_max(number) << endl;
+	int max = find_max(number);
+	print(to_string(max));
 
 	return 0;
 }
