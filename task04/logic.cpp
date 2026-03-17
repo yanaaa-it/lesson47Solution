@@ -15,5 +15,5 @@ int find_missing_number(int array[DEFAULT_SIZE], int n) {
 
 	int really_sum = sum_numbers(array, n);
 
-	return fact_sum ;
+	return fact_sum- really_sum;
 }

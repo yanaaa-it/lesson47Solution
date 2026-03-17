@@ -2,9 +2,15 @@
 #include"logic.h"
 void user_init(int array[DEFAULT_SIZE], int length) {
 	cout << "Input your array elements: ";
-	for (int index = 0; index < length|| index < length-1; index++)
+	/*for (int index = 0; index < length|| index < length-1; index++)
 	{
 		cin >> array[index];
+	}*/
+	int index = -1;
+	while (array[index] != 0) {
+		index++;
+		cin >> array[index];
+		
 	}
 }
 void print(string msg) {
